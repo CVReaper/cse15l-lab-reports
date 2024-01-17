@@ -1,3 +1,9 @@
+# Lab Report 1
+---
+
+
+
+
 **What happens when I do no arguments for:**
 ---
 
