@@ -63,7 +63,7 @@ cat: lecture1/: Is a directory
 ```
 After running `cat` with a directory as an argument, I noticed that we get an error stating that `lecture1/` (the directory I used as the argument) was a directory. This is because the `cat` command uses files as the argument, not directories.
 
-***What happens when I run each command with a path to a file as an argument**
+**What happens when I run each command with a path to a file as an argument**
 ---
 
 # `cd`:
