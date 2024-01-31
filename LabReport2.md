@@ -4,13 +4,13 @@
 ## **Part 1**
 
 Code for `ChatServer`:
+---
+Used AI (ChatGPT) to fix error on why I was kept getting error 404. Also used it to figure out why I was unable to use multiple arguments (Used NumberServer as a base). AI chat prompts found [here](https://chat.openai.com/share/e41d1fa2-b94e-44cb-b8de-bf4c06ac90d9)
 ```
 import java.io.IOException;
 import java.net.URI;
 
 class Handler implements URLHandler {
-    // The one bit of state on the server: a number that will be manipulated by
-    // various requests.
     String msg = " ";
 
     public String handleRequest(URI url) {
@@ -69,4 +69,19 @@ pc: Yes!
 For starters, the same methods were still run, with the same `url` parameter value. However, what has changed was the values of `uParameter[1]` which has now become `pc` and `sParameter[1]` which became `Yes!`. With these changes, it also caused a change in `msg` which now has a value of `Gio: Does this work? \n pc: Yes! \n`.
 
 ## **Part 2**
+
+Picture of logging in w/out password
+![Image](noPassNeeded.png)
+
+Picture w/ `.ssh` in ieng6:
+![Image](https://github.com/CVReaper/cse15l-lab-reports/blob/main/ssh%20on%20ieng6.png)
+
+Picture w/ `.ssh` in local device (laptop):
+![Image](https://github.com/CVReaper/cse15l-lab-reports/blob/main/ssh%20on%20Laptop.png)
+
+**Part 3**
+---
+In the past 2 labs, I was now able to deepen my knowledge in creating a server and having it run commands through the url. I was able to deepen it by learning how to make not only 1 argument, but have multiple arguments and demonstrated on this lab report. On top of that, I also learned new commands such as scp and mkdir.
+
+
 
