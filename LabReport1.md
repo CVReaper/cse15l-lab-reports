@@ -14,7 +14,7 @@ Starting at `/home`:
 [user@sahara ~]$ cd
 [user@sahara ~]$
 ```
-Starting from `/home/lecture1`
+Starting from `/home/lecture1`:
 ```
 [user@sahara ~/lecture1]$ cd
 [user@sahara ~]$ 
@@ -28,7 +28,7 @@ Starting from `/home/lecture1`:
 [user@sahara ~/lecture1]$ ls
 Hello.class  Hello.java  messages  README
 ```
-I set the starting directory at `/home/lecture1`. After running `ls`, I see all the files that exist within `/lecture1`.
+I set the starting directory at `/home/lecture1` (Was `/home` prior). After running `ls`, I see all the files that exist within `/lecture1`.
 
 # `cat`:
 
@@ -49,7 +49,7 @@ Starting at `/home`:
 [user@sahara ~]$ `cd` lecture1/
 [user@sahara ~/lecture1]$
 ```
-When running `cd` with a directory as an argument, in this case, lecture1/, I notice the directory change from `/home` to `/home/lecture1`.
+When running `cd` with a directory as an argument, in this case, `lecture1/`, I notice the directory change from `/home` to `/home/lecture1`.
 
 # `ls`:
 
@@ -79,7 +79,7 @@ Starting from `/home/lecture1/messages`:
 [user@sahara ~/lecture1/messages]$ `cd` en-us.txt 
 bash: cd: en-us.txt: Not a directory
 ```
-After running `cd` with a path to a file (`en-us.txt`) as an argument, I would recieve an error stating that `en-us.txt` is not a directory. This is because the command `cd` requires a directory as its argument, not a file.
+Prior to changing the directory, it started off as `/home`. After running `cd` with a path to a file (`en-us.txt`) as an argument, I would recieve an error stating that `en-us.txt` is not a directory. This is because the command `cd` requires a directory as its argument, not a file.
 
 # `ls`:
 
@@ -90,7 +90,7 @@ en-us.txt
 [user@sahara ~/lecture1/messages]$ ls jp-jpn.txt 
 jp-jpn.txt
 ```
-After running ls twice, using different files as its arguments, I would recieve the name of the file I put as the argument. This is because there is no more contents in its path, making the file the final item in the path.
+Prior to changing the directory, it started off as `/home`. After running ls twice, using different files as its arguments, I would recieve the name of the file I put as the argument. This is because there is no more contents in its path, making the file the final item in the path.
 
 # `cat`:
 
@@ -101,7 +101,7 @@ Starting from `/home/lecture1/messages`:
 [user@sahara ~/lecture1/messages]$ `cat`en-us.txt 
 Hello World!
 ```
-After running `cat` twice, using different files as its arguments, I would recieve the contents inside the file that I used as the argument. 
+Prior to changing the directory, it started off as `/home`. After running `cat` twice, using different files as its arguments, I would recieve the contents inside the file that I used as the argument. 
 
 
 
