@@ -74,10 +74,10 @@ Picture of logging in w/out password
 ![Image](noPassNeeded.png)
 
 Picture w/ `.ssh` in ieng6:
-![Image](https://github.com/CVReaper/cse15l-lab-reports/blob/main/ssh%20on%20ieng6.png)
+![Image](sshonieng6.png)
 
 Picture w/ `.ssh` in local device (laptop):
-![Image](https://github.com/CVReaper/cse15l-lab-reports/blob/main/ssh%20on%20Laptop.png)
+![Image](sshonLaptop.png)
 
 **Part 3**
 ---
