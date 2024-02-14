@@ -137,7 +137,6 @@ Option/Alternative 3: `-delete`
 ```
 giova@G-Laptop MINGW64 ~/SynologyDrive/CSE 15L/docsearch/technical (main)
 $ find government/About_LSC/ -name "commission_report.txt" -delete
-
 ```
 In this example, I use the `-delete` option to delete a file named `commission_report.txt` using `-name`, which was found within `./government/About_LSC`. There was no output, however, looking through the directories and paths of the file, it does demonstrate it did delete said file.
 
@@ -145,7 +144,6 @@ In this example, I use the `-delete` option to delete a file named `commission_r
 ```
 giova@G-Laptop MINGW64 ~/SynologyDrive/CSE 15L/docsearch/technical (main)
 $ find government/About_LSC/ -type f -delete
-
 ```
 In this example, I deleted files, however, instead of deleting a singular file, I deleted all files found within `./government/About_LSC` directory using `-type`. Similarly to the last example, there is no output, however, viewing the paths and directories, it does show that an action was performed.
 
