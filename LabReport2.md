@@ -73,11 +73,11 @@ For starters, the same methods were still run, with the same `url` parameter val
 Picture of logging in w/out password
 ![Image](noPassNeeded.png)
 
-Picture w/ `.ssh` in ieng6:
-![Image](sshonieng6.png)
+Picture w/ `.ssh` in ieng6, and the contents of `.ssh`:
+![Image](sshOnIeng6.png)
 
-Picture w/ `.ssh` in local device (laptop):
-![Image](sshonLaptop.png)
+Picture w/ `.ssh` in local device (laptop), and the contents of `.ssh`:
+![Image](sshOnLocal.png)
 
 **Part 3**
 ---
